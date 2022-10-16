@@ -40,6 +40,7 @@ public class Stack_Exercise{
         catch(EmptyStackException ESE){
             System.out.println("The stack is Empty");
         }
+        System.out.println();
         /* calls void main2 */
         main2();
         main3();
@@ -60,6 +61,7 @@ public class Stack_Exercise{
 
         System.out.println(stack);
         System.out.println(myFavGame + " the last item in the stack");
+        System.out.println();
     }
     public static void main3(){
         Stack<String> stack = new Stack<String>();
@@ -74,6 +76,7 @@ public class Stack_Exercise{
         System.out.println(stack.peek() + " the last item in the stack");
 
         System.out.println(stack);
+        System.out.println();
     }
     public static void main4(){
         Stack<String> stack = new Stack<String>();
@@ -89,6 +92,7 @@ public class Stack_Exercise{
         System.out.println(stack.search("DOOM"));
         /* if the items is not in the stack, it returns -1 */
         System.out.println(stack.search("Doom"));
+        System.out.println();
     }
     public static void main5(){
         Stack<String> stack = new Stack<String>();
@@ -104,6 +108,7 @@ public class Stack_Exercise{
             /* there will be a memory error (exception OutOfMemoryError) */
             stack.push("Fallout 76");
         }
+        System.out.println();
     }
 };
 
